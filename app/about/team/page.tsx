@@ -7,37 +7,22 @@ import Image from "next/image"
 
 const teamMembers = [
   {
-    name: "Dr. Sarah Adebayo",
-    position: "Managing Director & Lead Consultant",
+    name: "Dr. Nnenna Onwuzo",
+    position: "Principal Parner",
     specialization: "Change Management & Organizational Development",
-    image: "/placeholder.svg?height=300&width=300",
-    bio: "With over 15 years of experience in organizational transformation, Dr. Adebayo leads our strategic initiatives and client relationships.",
-    expertise: ["Change Management", "Strategic Planning", "Leadership Development"],
+    image: "/IMAGE2.JPEG",
+    bio: "Dr. Nnenna Onwuzo is a dynamic, entrepreneurial leader with over two decades of cross-industry experience in global business strategies, leadership dynamics, and business development. As a Certified Change Management Specialist and Certified Neuro-Linguistic Programming Practitioner, she excels at guiding organizations through transformative change, coaching teams to think strategically, and shaping mindsets for sustainable growth. Her distinct combination of financial acumen, entrepreneurial foresight, and people-centered coaching consistently elevates performance and positions organizations for lasting competitive advantage.Serving as principal partner at Crystalsmith Consulting Limited and CrystalSmith Services & Retailers, Dr. Onwuzo demonstrates exceptional business insight. She devises operational frameworks that improve efficiency, orchestrates market-expansion initiatives, and designs tailored training programs focused on leadership, communication, and strategic planning. By embedding change-management principles into every intervention, she ensures that teams remain agile, motivated, and aligned with long-term objectives.Prior to founding her own firms, Dr. Onwuzo held leadership roles at leading financial institutions, where she led business-development efforts, optimized customer-relationship management, and drove operational-efficiency enhancements. Her track record in banking and business underscores her ability to balance rigorous financial discipline with a commitment to mentoring nascent leaders, instilling the skills and mindset required to navigate complex, fast-evolving markets.Passionate about nurturing tomorrow’s executives, Dr. Onwuzo is building a portfolio of engaging workshops on leadership, communication, and strategic planning. Her coaching philosophy centers on empowering individuals to embrace change, unlock their full potential, and cultivate high-performance teams. By combining insights from change management and neuro-linguistic programming, she creates learning experiences that shift mindsets, reinforce resilience, and sustain growth long after the workshop ends.",
+    expertise: ["Change Management & Organizational Transformation", "Leadership Coaching & Team Development", "Entrepreneurship, Business Development & Market Expansion","Client Relationship Management & Stakeholder Engagement","Training Design & Communication Strategy"],
   },
   {
-    name: "Mr. Ibrahim Musa",
-    position: "Senior HR Consultant",
+    name: "Nwajideobi Lucy",
+    position: "Management Consultant, Administrator, and Human Resource Development Expert",
     specialization: "Talent Management & HR Policy",
-    image: "/placeholder.svg?height=300&width=300",
-    bio: "Ibrahim specializes in talent acquisition, performance management, and HR compliance across various industries.",
-    expertise: ["Talent Management", "HR Policy", "Compliance"],
+    image: "/IMAGE1.JPEG",
+    bio: "Nwajideobi Lucy is a Management Consultant, Administrator, and Human Resource Development Expert with multiple international certifications and a Bachelor’s degree from the renowned Imo State University, Nigeria.As a seasoned Human Resource Personnel (HRP), she has been able to spread her tentacles of professional influence across many organizations both nationally and internationally.As a Management Consultant, Writer, and Speaker, coupled with her background in Human Capacity Development, Lucy is extremely passionate about strategically helping individuals achieve upward growth in their career path, leadership development, capacity building, youth empowerment, and strategies.Lucy has a personal mission of facilitating the transformation of individuals, organizations, and nations through her Volunteerism with NGOs and Charity foundations that aims at empowering women and children across Africa and beyond.",
+    expertise: ["Management", "HR Policy", "Compliance"],
   },
-  {
-    name: "Mrs. Grace Okonkwo",
-    position: "Executive Coach & Leadership Specialist",
-    specialization: "Leadership Development & Executive Coaching",
-    image: "/placeholder.svg?height=300&width=300",
-    bio: "Grace brings extensive experience in executive coaching and leadership development programs for C-suite executives.",
-    expertise: ["Executive Coaching", "Leadership Training", "Team Development"],
-  },
-  {
-    name: "Mr. Ahmed Hassan",
-    position: "Organizational Development Consultant",
-    specialization: "Process Optimization & Culture Transformation",
-    image: "/placeholder.svg?height=300&width=300",
-    bio: "Ahmed focuses on organizational restructuring, process improvement, and culture change initiatives.",
-    expertise: ["Process Optimization", "Culture Change", "Organizational Design"],
-  },
+ 
 ]
 
 export default function TeamPage() {
@@ -68,7 +53,7 @@ export default function TeamPage() {
                 key={index}
                 className="group hover:shadow-xl transition-all duration-300 border-0 shadow-lg overflow-hidden"
               >
-                <div className="relative h-80 overflow-hidden">
+                <div className="relative h-96 overflow-hidden">
                   <Image
                     src={member.image || "/placeholder.svg"}
                     alt={member.name}
@@ -100,14 +85,14 @@ export default function TeamPage() {
                     </div>
                   </div>
 
-                  <div className="flex space-x-3">
+                  {/* <div className="flex space-x-3">
                     <button className="p-2 bg-brand-lime/10 text-brand-blue rounded-lg hover:bg-brand-lime hover:text-white transition-colors">
                       <Linkedin className="h-5 w-5" />
                     </button>
                     <button className="p-2 bg-brand-lime/10 text-brand-blue rounded-lg hover:bg-brand-lime hover:text-white transition-colors">
                       <Mail className="h-5 w-5" />
                     </button>
-                  </div>
+                  </div> */}
                 </CardContent>
               </Card>
             ))}

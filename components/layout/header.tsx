@@ -4,7 +4,7 @@ import { useState, useEffect } from "react"
 import Link from "next/link"
 import { X, Menu, ChevronDown } from "lucide-react"
 import { ContactModal } from "@/components/ui/contact-modal"
-
+import Image from "next/image"
 interface HeaderProps {
   transparent?: boolean
 }
@@ -30,7 +30,7 @@ export function Header({ transparent = false }: HeaderProps) {
     : "bg-white shadow-sm border-b sticky top-0 z-50"
 
   const textClass = transparent && !isScrolled ? "text-white" : "text-gray-900"
-  const logoTextClass = transparent && !isScrolled ? "text-brand-lime" : "text-brand-blue"
+  const logoTextClass = transparent && !isScrolled ? "text-brand-lime" : "text-brand-lime"
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen)
@@ -66,11 +66,12 @@ export function Header({ transparent = false }: HeaderProps) {
           <div className="flex justify-between items-center h-20">
             {/* Logo */}
             <Link href="/" className="flex items-center space-x-3" onClick={closeMenu}>
-              <div className="w-8 h-8 bg-brand-lime rounded-sm flex items-center justify-center">
-                <div className="w-4 h-4 bg-white rounded-sm"></div>
-              </div>
+              {/* <div className="w-32 h-11  rounded-sm flex items-center justify-center">
+                <Image src="/images/crystalsmith-logo-new.png" alt="Crystalsmith Logo" height={120} width={120} />
+                
+              </div> */}
               <div>
-                <h1 className={`text-xl font-medium ${logoTextClass}`}>crystalsmith</h1>
+                <h1 className={`text-3xl font-medium ${logoTextClass}`}>crystalsmith</h1>
               </div>
             </Link>
 
@@ -132,12 +133,12 @@ export function Header({ transparent = false }: HeaderProps) {
                 </div>
               </div>
 
-              <Link
+              {/* <Link
                 href="/insights"
                 className={`text-sm font-medium transition-colors hover:text-brand-lime ${textClass}`}
               >
                 insights
-              </Link>
+              </Link> */}
               <Link
                 href="/contact"
                 className={`text-sm font-medium transition-colors hover:text-brand-lime ${textClass}`}
