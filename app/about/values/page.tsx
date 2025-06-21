@@ -23,6 +23,7 @@ const values = [
       "Knowledge sharing and best practices",
       "Building lasting partnerships",
     ],
+    image:"/consult1.jpg",
     color: "bg-blue-50 text-brand-blue",
     borderColor: "border-l-brand-blue",
   },
@@ -39,6 +40,7 @@ const values = [
       "Honest assessments and recommendations",
       "Accountability for outcomes",
     ],
+      image:"/consult3.jpg",
     color: "bg-green-50 text-brand-lime-dark",
     borderColor: "border-l-brand-lime",
   },
@@ -55,6 +57,7 @@ const values = [
       "Adaptive methodologies",
       "Future-focused strategies",
     ],
+      image:"/consult4.jpg",
     color: "bg-yellow-50 text-yellow-600",
     borderColor: "border-l-yellow-500",
   },
@@ -71,6 +74,7 @@ const values = [
       "Performance measurement and optimization",
       "Client satisfaction focus",
     ],
+      image:"/consult2.jpg",
     color: "bg-purple-50 text-purple-600",
     borderColor: "border-l-purple-500",
   },
@@ -189,7 +193,7 @@ export default function ValuesPage() {
                       <CardContent className="text-center">
                         <div className="relative w-full h-48 rounded-lg overflow-hidden mb-6">
                           <Image
-                            src="/images/business-consultation-2.jpg"
+                            src={`${value.image}`}
                             alt={`${value.title} in action`}
                             fill
                             className="object-cover"

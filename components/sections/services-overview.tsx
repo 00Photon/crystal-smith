@@ -15,7 +15,7 @@ const services = [
     title: "Change Management Consulting",
     description: "Navigate complex transitions with precision and confidence through customized change strategies.",
     badge: "Core Service",
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/change-management.jpg",
     href: "/services/change-management",
   },
   {
@@ -23,7 +23,7 @@ const services = [
     title: "Organizational Development",
     description: "Transform structures, processes, and cultures to unlock your organization's full potential.",
     badge: "Transformation",
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/organ.jpg",
     href: "/services/organizational-development",
   },
   {
@@ -31,7 +31,7 @@ const services = [
     title: "Talent Management Solutions",
     description: "End-to-end solutions focusing on attracting, developing, and retaining top talent.",
     badge: "HR Solutions",
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/consult3.jpg",
     href: "/services/talent-management",
   },
   {
@@ -39,7 +39,7 @@ const services = [
     title: "HR Policy Design & Compliance",
     description: "Comprehensive HR audits and policy formulation aligned with global best practices.",
     badge: "Compliance",
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/consult4.jpg",
     href: "/services/hr-policy",
   },
   {
@@ -47,7 +47,7 @@ const services = [
     title: "Executive Coaching",
     description: "Personalized coaching programs to equip leaders with tools for inspiration and motivation.",
     badge: "Leadership",
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/consult2.jpg",
     href: "/services/executive-coaching",
   },
   {
@@ -55,7 +55,7 @@ const services = [
     title: "Workforce Planning & Analytics",
     description: "Data-driven workforce optimization to align human capital with strategic goals.",
     badge: "Analytics",
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/last.jpg",
     href: "/services/workforce-analytics",
   },
 ]

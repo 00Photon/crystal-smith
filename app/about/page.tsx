@@ -32,13 +32,13 @@ export default function AboutPage() {
               <Button size="lg" className="bg-brand-lime text-brand-blue hover:bg-brand-lime-light">
                 <Link href="/about/team" className="flex items-center">
                   Meet Our Team <ArrowRight className="ml-2 h-5 w-5" />
-                </Link>
+                </Link> 
               </Button>
             </div>
             <div className="relative">
               <div className="relative w-full h-[400px] rounded-2xl overflow-hidden">
                 <Image
-                  src="/placeholder.svg?height=400&width=600"
+                  src="/consult1.jpg"
                   alt="CrystalSmith team"
                   fill
                   className="object-cover"

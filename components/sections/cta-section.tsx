@@ -9,7 +9,7 @@ export function CTASection() {
       {/* Background */}
       <div className="absolute inset-0 bg-gradient-to-r from-brand-blue via-brand-blue-light to-brand-blue-dark"></div>
       <div className="absolute inset-0 opacity-10">
-        <div className="absolute inset-0 bg-[url('/placeholder.svg?height=100&width=100')] bg-repeat"></div>
+        <div className="absolute inset-0 bg-[url('/last.jpg')] bg-repeat"></div>
       </div>
 
       {/* Decorative Elements */}
@@ -92,7 +92,7 @@ export function CTASection() {
           <div className="relative">
             <div className="relative w-full h-[500px] rounded-2xl overflow-hidden">
               <Image
-                src="/placeholder.svg?height=500&width=600"
+                src="/last.jpg"
                 alt="Business consultation meeting"
                 fill
                 className="object-cover"

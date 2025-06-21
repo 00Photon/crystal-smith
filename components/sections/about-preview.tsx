@@ -75,7 +75,7 @@ export function AboutPreview() {
                 </div>
                 <div className="relative h-24 md:h-32 rounded-lg overflow-hidden">
                   <Image
-                    src="/images/business-consultation-1.jpg"
+                    src="/change-management.jpg"
                     alt="Strategic planning"
                     fill
                     className="object-cover hover:scale-105 transition-transform duration-500"
@@ -85,7 +85,7 @@ export function AboutPreview() {
               <div className="space-y-4 md:space-y-6 pt-8 md:pt-12">
                 <div className="relative h-24 md:h-32 rounded-lg overflow-hidden">
                   <Image
-                    src="/images/business-consultation-2.jpg"
+                    src="/last.jpg"
                     alt="Leadership development"
                     fill
                     className="object-cover hover:scale-105 transition-transform duration-500"
@@ -93,7 +93,7 @@ export function AboutPreview() {
                 </div>
                 <div className="relative h-40 md:h-48 rounded-lg overflow-hidden">
                   <Image
-                    src="/images/business-consultation-1.jpg"
+                    src="/organ.jpg"
                     alt="Business transformation"
                     fill
                     className="object-cover hover:scale-105 transition-transform duration-500"

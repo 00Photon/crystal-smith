@@ -98,7 +98,7 @@ export default function TalentManagementPage() {
             <div className="relative">
               <div className="relative w-full h-[400px] rounded-2xl overflow-hidden">
                 <Image
-                  src="/images/business-consultation-1.jpg"
+                  src="/consult3.jpg"
                   alt="Talent management"
                   fill
                   className="object-cover"
